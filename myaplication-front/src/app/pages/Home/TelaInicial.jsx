@@ -4,7 +4,6 @@ import "./style.css"
 function Home() {
     return (
         <>
-       
             <Header/>
         <main className="back"></main>
         </>

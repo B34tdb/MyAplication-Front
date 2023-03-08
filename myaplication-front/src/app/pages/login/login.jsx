@@ -129,15 +129,18 @@ function Login() {
                   label="Password"
                 />
               </FormControl>
+              <Link>
               <Button
                 disabled= { values.password.length <= 7 }
                 type="submit"
                 fullWidth
                 variant="contained"
+                href="/Sra"
                 sx={{ mt: 3, mb: 2, padding: 2 }}
               >
                 Entrar
               </Button>
+              </Link>
               <Grid container>
                 <Grid item xs>
                   <Link
